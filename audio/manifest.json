@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-26T20:44:32.078Z",
+  "tracks": [
+    {
+      "id": "aperture",
+      "title": "Aperture",
+      "context": "hub",
+      "files": {
+        "m4a": "audio/music/aperture.m4a",
+        "mp3": "audio/music/aperture.mp3"
+      },
+      "durationSec": 78,
+      "loop": {
+        "crossfadeSec": 5
+      },
+      "bpm": 80,
+      "key": "D major (Lydian colour)",
+      "lufsIntegrated": -22.1,
+      "truePeakDbtp": -8.9,
+      "description": "Hub theme: felt piano states the D–A–E motif, warm pads, glass light, a restrained pulse; the motif returns harmonised."
+    },
+    {
+      "id": "constellation",
+      "title": "Constellation",
+      "context": "map",
+      "files": {
+        "m4a": "audio/music/constellation.m4a",
+        "mp3": "audio/music/constellation.mp3"
+      },
+      "durationSec": 78,
+      "loop": {
+        "crossfadeSec": 5
+      },
+      "bpm": 70,
+      "key": "D major",
+      "lufsIntegrated": -22.1,
+      "truePeakDbtp": -9.4,
+      "description": "Map exploration: slowly evolving pads, scattered glass stars from the D pentatonic, the motif once."
+    },
+    {
+      "id": "assembly",
+      "title": "Assembly",
+      "context": "workshop",
+      "files": {
+        "m4a": "audio/music/assembly.m4a",
+        "mp3": "audio/music/assembly.mp3"
+      },
+      "durationSec": 76,
+      "loop": {
+        "crossfadeSec": 5
+      },
+      "bpm": 96,
+      "key": "D major",
+      "lufsIntegrated": -22.1,
+      "truePeakDbtp": -8.3,
+      "description": "Labs and missions: an understated pulse with sparse fifth-stack filament figures; never a constant arpeggio."
+    },
+    {
+      "id": "observatory",
+      "title": "Observatory",
+      "context": "notebook",
+      "files": {
+        "m4a": "audio/music/observatory.m4a",
+        "mp3": "audio/music/observatory.mp3"
+      },
+      "durationSec": 79,
+      "loop": {
+        "crossfadeSec": 5
+      },
+      "bpm": 66,
+      "key": "D major",
+      "lufsIntegrated": -22,
+      "truePeakDbtp": -6.9,
+      "description": "Research notebook: warm minimal felt piano, one chord per bar, long patient silences."
+    },
+    {
+      "id": "quiet-field",
+      "title": "Quiet Field",
+      "context": "study",
+      "files": {
+        "m4a": "audio/music/quiet-field.m4a",
+        "mp3": "audio/music/quiet-field.mp3"
+      },
+      "durationSec": 84,
+      "loop": {
+        "crossfadeSec": 6
+      },
+      "bpm": 0,
+      "key": "D (suspended)",
+      "lufsIntegrated": -26.1,
+      "truePeakDbtp": -14.2,
+      "description": "Optional study ambience: very slow pad changes on D, a faint drone and air. No melody, no percussion."
+    },
+    {
+      "id": "breakthrough",
+      "title": "Breakthrough",
+      "context": "flourish",
+      "files": {
+        "m4a": "audio/music/breakthrough.m4a",
+        "mp3": "audio/music/breakthrough.mp3"
+      },
+      "durationSec": 2,
+      "loop": null,
+      "bpm": 0,
+      "key": "D major",
+      "lufsIntegrated": -20.1,
+      "truePeakDbtp": -8.5,
+      "description": "Mastery flourish (non-looping): the motif rolled on felt piano, doubled on glass, over a Dmaj9 bloom."
+    }
+  ],
+  "license": "Original work composed and synthesised entirely by code in this repository (tools/audio, src/audio/synth) for PRISM Academy. No third-party samples, loops, presets or recordings were used."
+}

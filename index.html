@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#f3f1ec" />
+    <meta name="description" content="PRISM Academy: a private laboratory-school for optics, computing and electrical engineering. Progress stays on this device." />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <title>PRISM Academy</title>
+    <script>
+      // Set the theme before first paint (mirrors the saved setting; no flash).
+      (function () {
+        try {
+          var pref = localStorage.getItem('prism-academy:theme') || 'auto';
+          var dark = pref === 'night' || (pref === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          document.documentElement.setAttribute('data-theme', dark ? 'night' : 'day');
+        } catch (e) {
+          document.documentElement.setAttribute('data-theme', 'day');
+        }
+      })();
+    </script>
+    <style>html[data-theme=night] body{background:#0d0f13}html[data-theme=day] body{background:#f3f1ec}.boot{letter-spacing:.18em;text-transform:uppercase;color:#7d8491;place-items:center;font:500 13px/1 ui-monospace,Menlo,monospace;display:grid;position:fixed;inset:0}</style>
+    <script type="module" crossorigin src="./assets/index-DtxWbYbc.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/motion-BxBZXu78.js">
+    <link rel="modulepreload" crossorigin href="./assets/doc-EN-wefGB.js">
+    <link rel="modulepreload" crossorigin href="./assets/store-DlMmw3BR.js">
+    <link rel="modulepreload" crossorigin href="./assets/rng-gPjGgGxT.js">
+    <link rel="modulepreload" crossorigin href="./assets/state-yh7L08RM.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-B181h8eA.css">
+  </head>
+  <body>
+    <div id="root"><div class="boot" aria-hidden="true">PRISM</div></div>
+    <noscript>
+      <p style="padding: 24px; font-family: system-ui">PRISM Academy needs JavaScript to run its simulations. Please enable JavaScript for this site.</p>
+    </noscript>
+  </body>
+</html>
